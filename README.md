@@ -2,7 +2,7 @@
 
 ## Hello! I created this repo to test / learn three.js. Checkout my progress :D
 
-![avatargif](/Users/triciahughes/Desktop/v-link-project/v-link/assets/avatargif.gif)
+![avatargif](https://github.com/triciahughes/v-link/blob/main/assets/avatargif.gif)
 
 <!-- This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
