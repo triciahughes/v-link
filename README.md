@@ -1,8 +1,14 @@
 # District X w/ three.js!
 
-## Hello! I created this repo to test / learn three.js. Checkout my progress :D
+Hello! I created this repo to test / learn three.js. Checkout my progress :D
 
 ![avatargif](https://github.com/triciahughes/v-link/blob/main/assets/avatargif.gif)
+
+To get to the above run the following code in your CLI:
+
+```
+npx vite
+```
 
 <!-- This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
