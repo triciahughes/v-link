@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-// import { Link, useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import { fadeAnimation, slideAnimation } from "../../config/motion";
 
@@ -17,6 +17,13 @@ const images = [
 const SignInForm = () => {
   const [index, setIndex] = useState(0);
   const [loadedImages, setLoadedImages] = useState([]);
+
+  const navigate = useNavigate();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    navigate("/home");
+  };
 
   useEffect(() => {
     const preloadImages = async () => {
@@ -128,6 +135,7 @@ const SignInForm = () => {
 
               <div>
                 <button
+                  onClick={handleSubmit}
                   type="submit"
                   className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
