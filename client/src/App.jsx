@@ -4,7 +4,7 @@ function App() {
   return (
     <main className="app transition-all ease-in">
       <SignInForm />
-      <Canvas />
+      {/* <Canvas /> */}
     </main>
   );
 }
