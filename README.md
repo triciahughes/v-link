@@ -2,7 +2,7 @@
 
 Hello! I created this repo to test / learn three.js. Checkout my progress :D
 
-![avatargif](https://github.com/triciahughes/v-link/blob/main/client/src/assets/Checkout%20my%20progress!-vlink.gif)
+![avatargif](https://github.com/triciahughes/v-link/blob/main/assets/Checkout%20my%20progress!-vlink.gif)
 
 To get to the above run the following code in your CLI:
 
