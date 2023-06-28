@@ -1,4 +1,4 @@
-import SignInForm from "./SignInForm";
-import SignUpForm from "./SignUpForm";
+import SignInForm from "./authentication/SignInForm";
+import SignUpForm from "./authentication/SignUpForm";
 
 export { SignInForm, SignUpForm };

@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 // import { Link, useHistory } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
-import { fadeAnimation, slideAnimation } from "../config/motion";
+import { fadeAnimation, slideAnimation } from "../../config/motion";
 
 const images = [
   "https://i.imgur.com/tgUZzzW.jpg",
