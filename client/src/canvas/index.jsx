@@ -2,6 +2,7 @@ import { Canvas } from "@react-three/fiber";
 import { Environment, Center } from "@react-three/drei";
 import RightArrowIcon from "../components/elements/RightArrowIcon";
 import LeftArrowIcon from "../components/elements/LeftArrowIcon";
+import FinalizeCharacterBtn from "../components/elements/FinalizeCharacterBtn";
 
 // import RightArrowIcon from "../assets/RightArrowIcon.png";
 
@@ -11,7 +12,7 @@ import CameraRig from "./CameraRig";
 
 const CanvasModel = () => {
   return (
-    <div className="w-screen h-screen bg-gradient-to-br from-pink-300 to-purple-500">
+    <div className="w-screen h-screen bg-gradient-to-br from-pink-300 to-orange-400">
       <Canvas
         shadows
         camera={{ position: [0, 0, 0], fov: 25 }}
@@ -34,6 +35,7 @@ const CanvasModel = () => {
       <LeftArrowIcon top="25%" />
       <LeftArrowIcon top="50%" />
       <LeftArrowIcon top="75%" />
+      <FinalizeCharacterBtn />
     </div>
   );
 };
