@@ -19,7 +19,7 @@ import LogoutIcon from "@mui/icons-material/Logout";
 ///////////// IMPORTS //////////////
 
 const NavBar = () => {
-  const drawerWidth = 240;
+  const drawerWidth = 260;
   const navigate = useNavigate();
   return (
     <Drawer
