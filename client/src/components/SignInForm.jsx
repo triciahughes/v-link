@@ -38,14 +38,14 @@ const SignInForm = () => {
               >
                 Password
               </label>
-              <div className="text-sm">
+              {/* <div className="text-sm">
                 <a
                   href="#"
                   className="font-semibold text-indigo-600 hover:text-indigo-500"
                 >
                   Forgot password?
                 </a>
-              </div>
+              </div> */}
             </div>
             <div className="mt-2">
               <input
@@ -70,12 +70,12 @@ const SignInForm = () => {
         </form>
 
         <p className="mt-10 text-center text-sm text-gray-500">
-          Not a member?{" "}
+          Don't have an account?{" "}
           <a
             href="#"
             className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500"
           >
-            Start a 14 day free trial
+            Sign up now
           </a>
         </p>
       </div>
