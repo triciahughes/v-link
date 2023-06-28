@@ -8,7 +8,7 @@ const SignUpForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefualt();
-    navigate("/canvas");
+    navigate("/customizer");
   };
   return (
     <AnimatePresence>
