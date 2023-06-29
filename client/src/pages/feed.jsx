@@ -89,7 +89,9 @@ const Feed = () => {
               <Link
                 fontSize={"small"}
                 style={{ color: "#03a9f4" }}
-                onClick={() => {}}
+                onClick={() => {
+                  navigate(`/district/`);
+                }}
               >
                 {"districtLabel"}
               </Link>

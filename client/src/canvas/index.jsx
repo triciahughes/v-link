@@ -1,8 +1,10 @@
 import { Canvas } from "@react-three/fiber";
 import { Environment, Center } from "@react-three/drei";
-import RightArrowIcon from "../components/elements/RightArrowIcon";
-import LeftArrowIcon from "../components/elements/LeftArrowIcon";
-import FinalizeCharacterBtn from "../components/elements/FinalizeCharacterBtn";
+import {
+  RightArrowIcon,
+  LeftArrowIcon,
+  FinalizeCharacterBtn,
+} from "../components";
 
 import Avatar from "./Avatar";
 import Backdrop from "./Backdrop";

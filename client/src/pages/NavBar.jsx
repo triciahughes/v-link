@@ -75,7 +75,11 @@ const NavBar = () => {
         ))}
       </List>
       <Divider />
-      <List onClick={() => {}}>
+      <List
+        onClick={() => {
+          navigate("/districts");
+        }}
+      >
         {["All Districts"].map((text) => (
           <ListItem key={text} disablePadding>
             <ListItemButton>
