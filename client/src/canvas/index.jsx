@@ -10,12 +10,12 @@ import CameraRig from "./CameraRig";
 
 const CanvasModel = () => {
   return (
-    <div className="w-screen h-screen bg-gradient-to-br from-pink-300 to-orange-400">
+    <div>
       <Canvas
         shadows
         camera={{ position: [0, 0, 0], fov: 25 }}
         gl={{ preserveDrawingBuffer: true }}
-        style={{ position: "absolute" }}
+        style={{ position: "absolute", width: "100%", height: "100%" }}
       >
         <ambientLight intensity={0.5} />
         <Environment preset="city" />

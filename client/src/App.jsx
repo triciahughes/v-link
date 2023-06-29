@@ -9,7 +9,11 @@ function App() {
     <Routes>
       <Route path="/signin" element={<SignInForm />} />
       <Route path="/signup" element={<SignUpForm />} />
-      <Route path="/customizer" element={<Customizer />} />
+      <Route
+        path="/customizer"
+        element={<Customizer />}
+        style={{ width: "100%", height: "100vh" }}
+      />
       <Route path="/home" element={<Home />} />
       {/* <Route path="/canvas" element={<Canvas />} /> */}
     </Routes>
