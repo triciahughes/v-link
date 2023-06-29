@@ -4,8 +4,6 @@ import RightArrowIcon from "../components/elements/RightArrowIcon";
 import LeftArrowIcon from "../components/elements/LeftArrowIcon";
 import FinalizeCharacterBtn from "../components/elements/FinalizeCharacterBtn";
 
-// import RightArrowIcon from "../assets/RightArrowIcon.png";
-
 import Avatar from "./Avatar";
 import Backdrop from "./Backdrop";
 import CameraRig from "./CameraRig";
@@ -29,12 +27,35 @@ const CanvasModel = () => {
           </Center>
         </CameraRig>
       </Canvas>
+      <div
+        style={{
+          position: "fixed",
+          left: 600,
+          top: 15,
+          padding: "15px",
+          backgroundColor: "rgba(225, 225, 225, .25)",
+          boxShadow: "0 2px 30px rgba(31, 38, 135, .07)",
+          backdropFilter: "blur(4px)",
+          border: "1px solid rgba(225, 225, 225, .18)",
+          color: "white",
+          fontSize: "1.75rem",
+          border: "none",
+          borderRadius: "7px",
+          width: "20%",
+          display: "flex",
+          justifyContent: "center",
+        }}
+      >
+        Username Here
+      </div>
       <RightArrowIcon top="25%" />
       <RightArrowIcon top="50%" />
       <RightArrowIcon top="75%" />
+
       <LeftArrowIcon top="25%" />
       <LeftArrowIcon top="50%" />
       <LeftArrowIcon top="75%" />
+
       <FinalizeCharacterBtn />
     </div>
   );

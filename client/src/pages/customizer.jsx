@@ -1,7 +1,7 @@
 import React from "react";
 import Canvas from "../canvas";
 
-const customizer = () => {
+const Customizer = () => {
   return (
     <>
       <Canvas />
@@ -9,4 +9,4 @@ const customizer = () => {
   );
 };
 
-export default customizer;
+export default Customizer;

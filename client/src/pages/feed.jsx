@@ -20,7 +20,7 @@ import {
 import HighlightOffRoundedIcon from "@mui/icons-material/HighlightOffRounded";
 ///////////// IMPORTS //////////////
 
-const feed = () => {
+const Feed = () => {
   const navigate = useNavigate();
   ///////////// STYLES //////////////
   const StyledPaper = styled(Paper)(({ theme }) => ({
@@ -119,4 +119,4 @@ const feed = () => {
   );
 };
 
-export default feed;
+export default Feed;

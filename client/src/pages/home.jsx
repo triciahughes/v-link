@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "./NavBar.jsx";
 import Feed from "./Feed.jsx";
 
-const home = () => {
+const Home = () => {
   return (
     <>
       <NavBar />
@@ -11,4 +11,4 @@ const home = () => {
   );
 };
 
-export default home;
+export default Home;

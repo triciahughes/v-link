@@ -1,8 +1,8 @@
 import * as React from "react";
 import { Routes, Route } from "react-router-dom";
 import { SignInForm, SignUpForm } from "./components";
-import Customizer from "./pages/customizer";
-import Home from "./pages/home";
+import Customizer from "./pages/Customizer";
+import Home from "./pages/Home";
 
 function App() {
   return (
